@@ -15,7 +15,7 @@ function App() {
     const query = new Parse.Query('test')
     const allData = await query.find();
     allData.forEach(item => {
-      console.log(item)  
+      console.log('a', item)  
     });
   }
 
@@ -34,7 +34,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React 1
         </a>
       </header>
     </div>
